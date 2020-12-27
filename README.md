@@ -1,2 +1,3 @@
 # Sudoku-cv-preprocessing
 Preprocessing Sudoku to be ready for machine learning detection using simple image filters and detection algorithms.
+The idea here, is to create a preprocessing pipeline which produces cell-wise images from a sudoku image. It has simple implementations of gaussian blur, thresholding, binarizing among others from scratch; and also the use of Contours and Polynoimal detection using cv2.
